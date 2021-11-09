@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="626.993" Width="1097">
     <Grid Background="Black">
-        <Button x:Name="start" Content="Stop" HorizontalAlignment="Left" Margin="10,556,0,0" VerticalAlignment="Top" Width="85" Click="startCOM" Height="30" Foreground="#FF3AEA13" Background="#FF000101" BorderBrush="#FF25F504"/>
-        <Button x:Name="stop" Content="Start" HorizontalAlignment="Left" Margin="100,556,0,0" VerticalAlignment="Top" Width="85" Click="StopCOM" Height="30" Foreground="#FF3AEA13" BorderBrush="#FF26F105" Background="#00000000"/>
+        <Button Content="Stop" HorizontalAlignment="Left" Margin="10,556,0,0" VerticalAlignment="Top" Width="85" Click="stopCOM" Height="30" Foreground="#FF3AEA13" Background="#FF000101" BorderBrush="#FF25F504"/>
+        <Button Content="Start" HorizontalAlignment="Left" Margin="100,556,0,0" VerticalAlignment="Top" Width="85" Click="StartCOM" Height="30" Foreground="#FF3AEA13" BorderBrush="#FF26F105" Background="#00000000"/>
         <TextBox Name ="texbox1" HorizontalAlignment="Left" Height="30" Margin="190,556,0,0" TextWrapping="Wrap" Text="COM7" VerticalAlignment="Top" Width="98" RenderTransformOrigin="-1.168,7.793" FontSize="16" Foreground="#FF3AEA13" BorderBrush="#FF0FF304" Background="#00000000"/>
         <Label x:Name="label1" Content="0cm" HorizontalAlignment="Left" Margin="434,556,0,0" VerticalAlignment="Top" Width="88" Height="30" FontSize="18" Foreground="#FF40E61B"/>
         <Label x:Name="label2" Content="0°" HorizontalAlignment="Left" Margin="397,556,0,0" VerticalAlignment="Top" Width="55" Height="40" FontSize="18" Foreground="#FF21EE17"/>
